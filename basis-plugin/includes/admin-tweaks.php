@@ -63,7 +63,7 @@ function inject_cpt_archives_menu_meta_box( $object ) {
 //////////////////////////////////////////////
 function remove_menu_items() {
   global $menu;
-  $restricted = array(__('Links');
+  $restricted = array(__('Links'));
   end ($menu);
   while (prev($menu)){
 	$value = explode(' ',$menu[key($menu)][0]);
