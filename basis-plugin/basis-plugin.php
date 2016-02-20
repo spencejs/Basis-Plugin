@@ -50,5 +50,6 @@ function basis_admin_init() {
 
 require_once BASIS_INC_DIR . 'admin-tweaks.php';
 require_once BASIS_INC_DIR . 'post-types-taxonomies.php';
+require_once BASIS_INC_DIR . 'basis-meta-boxes.php';
 require_once BASIS_INC_DIR . 'contextual-help.php';
 ?>
